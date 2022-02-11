@@ -28,11 +28,12 @@ img{
 }
 
 .green-color {
-  color: #3a9476;
+  color: #5ba68d;
+  font-weight: 500;
 }
 
 .bg-form {
-  background-color: #3a9476;
+  background-color: #5ba68d;
   opacity: 0.831;
   position: absolute;
   top: 0;
@@ -78,7 +79,7 @@ img{
   font-weight: 600;
   font-style: normal;
   left: 35px;
-  top: 50%;
+  top: 46%;
 }
 
 .section-relative {
@@ -89,7 +90,7 @@ img{
 .header {
   padding-top: 8px;
   padding-bottom: 12px;
-  border-bottom: 4px solid #3a9476;
+  border-bottom: 4px solid #5ba68d;
 }
 .header .main-wrapper {
   display: flex;
@@ -126,7 +127,7 @@ img{
 .phone .phone__ico-block {
   border-style: solid;
   border-width: 1px;
-  border-color: #3a9476;
+  border-color: #5ba68d;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 3px 0px 0px rgba(79, 79, 79, 0.19);
@@ -157,7 +158,7 @@ img{
 .banner .banner__title {
   font-size: 36px;
   font-family: "Myriad Pro";
-  color: #3a9476;
+  color: #5ba68d;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -175,6 +176,7 @@ img{
 .banner .banner__list li {
   position: relative;
   padding-left: 20px;
+  line-height: 1.5;
 }
 .banner .banner__list li:before {
   content: "";
@@ -183,7 +185,7 @@ img{
   width: 11px;
   height: 11px;
   box-shadow: 0px 3px 0px 0px rgba(79, 79, 79, 0.1);
-  background-color: #3a9476;
+  background-color: #5ba68d;
   position: absolute;
   left: 0;
   top: 50%;
@@ -194,7 +196,7 @@ img{
   border-radius: 10px;
   box-shadow: 0px 3px 0px 0px rgba(79, 79, 79, 0.1);
   color: #fff;
-  background-color: #3a9476;
+  background-color: #5ba68d;
   text-decoration: none;
   padding: 16px;
 }
@@ -235,12 +237,13 @@ img{
 }
 
 .info-1 {
-  padding: 70px 0;
   line-height: 1.125;
 }
 .info-1 .main-wrapper {
   padding-left: 160px;
   padding-right: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .info-1 .bg-picture {
   position: absolute;
@@ -255,14 +258,14 @@ img{
   position: relative;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 15px 0;
 }
 .info-list:before {
   content: "";
   position: absolute;
   height: 95%;
   width: 1px;
-  background-color: #3a9476;
+  background-color: #5ba68d;
   left: 11.5px;
   top: 7px;
 }
@@ -278,11 +281,11 @@ img{
   display: block;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 9px;
   transform: translateY(-50%);
   border-style: solid;
   border-width: 2px;
-  border-color: #3a9476;
+  border-color: #5ba68d;
   border-radius: 50%;
   width: 20px;
   height: 20px;
@@ -323,7 +326,7 @@ img{
   padding: 11px 30px;
   border-radius: 10px;
   outline: none;
-  background-color: #3a9476;
+  background-color: #5ba68d;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -377,7 +380,7 @@ img{
   transform: translate(-50%, -50%);
 }
 .promotion .promotion__title {
-  color: #3a9476;
+  color: #5ba68d;
   font-weight: 500;
 }
 .promotion .promotion__desc {
@@ -398,6 +401,7 @@ img{
 .info-3 .main-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .info-3 .info-list {
   background-image: url("../img/info-1-bg.png");
@@ -436,7 +440,7 @@ img{
 .slider .slider__title {
   font-size: 24px;
   font-family: "Myriad Pro";
-  color: #3a9476;
+  color: #5ba68d;
   font-weight: normal;
   font-style: normal;
   margin-bottom: 15px;
@@ -469,11 +473,17 @@ img{
 .slider .slick-next:before {
   background-image: url("../img/slider__arrow-right.png");
 }
+.slider .slick-next:hover:before {
+  background-image: url("../img/slider__arrow-right-active.png");
+}
 .slider .slick-prev {
   left: 0;
 }
 .slider .slick-prev:before {
   background-image: url("../img/slider__arrow-left.png");
+}
+.slider .slick-prev:hover:before {
+  background-image: url("../img/slider__arrow-left-active.png");
 }
 
 .info-4 {
@@ -482,6 +492,15 @@ img{
 
 .info-5 {
   padding: 140px 0;
+}
+
+.info-5 .info-list:before{
+  height: 77%;
+  top: 15px;
+}
+.info-6 .info-list:before{
+  height: 80%;
+  top: 15px;
 }
 .info-5 .main-wrapper {
   display: flex;
@@ -494,7 +513,7 @@ img{
 
 .info__title {
   font-size: 18px;
-  color: #3a9476;
+  color: #5ba68d;
   font-weight: 500;
 }
 
@@ -544,7 +563,7 @@ img{
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 40px;
-  border-top: 4px solid #3a9476;
+  border-top: 4px solid #5ba68d;
 }
 .footer .main-wrapper {
   position: relative;
@@ -563,7 +582,7 @@ img{
 }
 .footer .menu .main-menu {
   font-size: 14px;
-  color: #3a9476;
+  color: #5ba68d;
   line-height: 1.286;
   font-style: normal;
   font-weight: normal;
@@ -584,7 +603,7 @@ img{
 }
 .footer-info .footer-info__title {
   font-size: 14px;
-  color: #3a9476;
+  color: #5ba68d;
   line-height: 1.286;
   font-style: normal;
   font-weight: normal;
@@ -732,12 +751,39 @@ img{
     display: none;
   }
 }
+@media (max-width: 840px) {
+  .info-list:before{
+    height: 88%;
+    top: 15px;
+  }
+  .info-5 .info-list:before {
+    height: 77%;
+    top: 15px;
+  }
+  .info-6 .info-list:before{
+    height: 82%;
+    top: 15px;
+  }
+  .footer .logo .logo__text{
+    font-size: 16px;
+  }
+  .footer .logo__img{
+    width: 28px;
+  }
+  .footer .logo{
+    height: 28px;
+    flex: 0 0 149px;
+  }
+  .footer__content{
+    margin: 0 -15px;
+  }
+}
 @media (max-width: 760px) {
   .banner .banner-img-block{
     display: none;
   }
 }
-@media (max-width: 730px) {
+@media (max-width: 690px) {
   .footer .main-wrapper{
     flex-flow: column;
     align-items: center;
@@ -765,7 +811,7 @@ img{
   .advantage .advantage__item{
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     flex: 0 0 50%;
   }
   .name-section{
@@ -799,6 +845,9 @@ img{
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
+  .info-4{
+    display: none;
+  }
 }
 @media (max-width: 535px) {
   .header .main-wrapper{
@@ -809,6 +858,16 @@ img{
     text-align: center;
   }
 }
+@media (max-width: 420px) {
+  .info-5 .info-list:before {
+    height: 80%;
+    top: 15px;
+  }
+  .info-6 .info-list:before{
+    height: 83%;
+    top: 15px;
+  }
+}
 @media (max-width: 380px) {
   .banner .banner-btn:before{
     content: none;
@@ -816,9 +875,15 @@ img{
   .banner__btn-block{
     text-align: center;
   }
+  .promotion{
+    width: 220px;
+    margin: 0 auto;
+  }
   .promotion .promotion__item {
     flex: 0 0 calc(100%);
   }
-
+  .promotion .promotion__item:before{
+    left: 33%;
+  }
 
 }
